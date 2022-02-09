@@ -36,6 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+.stockbar{
+  /* position: absolute;
+  top: 0;
+  left: 98%; */
+  position: absolute;
+  top: 5px;
+  left: 96.8%;
+
+  background: #1E222D;
+}
 section {
   padding: 60px 0;
   overflow: hidden;
