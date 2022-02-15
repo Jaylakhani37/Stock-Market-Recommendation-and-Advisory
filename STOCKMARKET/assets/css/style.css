@@ -49,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background: #fff;
+  /* background: #fff; */
+  background: #151E28;
 }
 
 .section-header {
@@ -522,10 +523,12 @@ section {
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 5px rgba(255, 255, 0, 0.692);
   text-align: center;
   transition: 0.3s;
   height: 100%;
+  border: 1px solid goldenrod;
+  border-radius: 2px;
 }
 .values .box img {
   padding: 30px 50px;
@@ -534,7 +537,7 @@ section {
 }
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: white;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -583,13 +586,14 @@ section {
 --------------------------------------------------------------*/
 .features .feature-box {
   padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 10px rgba(255, 255, 0, 0.527);
+  border-radius: 5px;
   transition: 0.3s;
   height: 100%;
 }
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: goldenrod;
   font-weight: 700;
   margin: 0;
 }
@@ -610,7 +614,7 @@ section {
   margin-top: 120px;
 }
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #FFC72B;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -654,7 +658,7 @@ section {
   margin-top: 120px;
 }
 .features .feature-icons h3 {
-  color: #012970;
+  color: #FFC72B;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -672,12 +676,12 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: white;
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #0245bc;
+  color: #FFC72B;
   margin-right: 15px;
 }
 .features .feature-icons .content .icon-box p {
@@ -1208,7 +1212,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #151E28;
   padding: 60px 0;
 }
 .team .member {
@@ -1901,13 +1905,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #151E28;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: #151E28;
   border-top: 1px solid #e1ecff;
 }
 .footer .footer-newsletter h4 {
@@ -1950,10 +1954,10 @@ section {
   background: #5969f3;
 }
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: #151E28 url(../img/footer-bg.png) no-repeat right top;
   background-size: contain;
-  border-top: 1px solid #e1ecff;
-  border-bottom: 1px solid #e1ecff;
+  border-top: 1px solid white;
+  /*border-bottom: 1px solid #FFC72B; */
   padding: 60px 0 30px 0;
 }
 @media (max-width: 992px) {
@@ -1989,18 +1993,18 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: white;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: goldenrod;
 }
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #FFC72B;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2028,7 +2032,7 @@ section {
   padding-top: 0;
 }
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: white;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
