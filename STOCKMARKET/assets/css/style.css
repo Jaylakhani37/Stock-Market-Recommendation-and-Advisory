@@ -2107,3 +2107,27 @@ span:focus-within{
   background: #fff;
   /*border: 1px solid #fff;*/
 }
+
+/*PopUp*/
+.modal-content{
+  border-radius: 7px;
+  background: #151E28;
+}
+.close{
+  color: yellow;
+}
+.close:hover{
+  color: yellowgreen;
+}
+.modal-body h1 {
+  font-weight: 900;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+.modal-body span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
