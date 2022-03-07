@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E222D;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    position: relative;
+    top: 90px;
+}
+.chartheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    color: gold;
+    font-weight: 2000;
+    position: relative;
+    top: 90px;
+}
+.minichart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    position: relative;
+    top: 90px;
+}
+.technicalchartheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    color: gold;
+    font-weight: 2000;
+    position: relative;
+    top: 90px;
+}
+.technical_chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    position: relative;
+    top: 90px;
+}
+.company_profile,.fundamental_analysis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    color: gold;
+    font-weight: 2000;
+    position: relative;
+    top: 90px;
+}
+.profile,.fundamental{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgba(245, 245, 245, 0);
+    position: relative;
+    top: 90px;
+}

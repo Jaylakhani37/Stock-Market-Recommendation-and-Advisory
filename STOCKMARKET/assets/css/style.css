@@ -541,7 +541,12 @@ section {
   font-weight: 700;
   margin-bottom: 18px;
 }
-.values .box:hover {
+.values .box:hover a{
+  text-decoration: none;
+  color: gold;
+
+}
+.values .box:hover  {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 .values .box:hover img {
@@ -659,7 +664,7 @@ section {
 }
 .features .feature-icons h3 {
   color: #FFC72B;
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 32px;
   margin-bottom: 20px;
   text-align: center;
@@ -2106,28 +2111,4 @@ section {
 span:focus-within{ 
   background: #fff;
   /*border: 1px solid #fff;*/
-}
-
-/*PopUp*/
-.modal-content{
-  border-radius: 7px;
-  background: #151E28;
-}
-.close{
-  color: yellow;
-}
-.close:hover{
-  color: yellowgreen;
-}
-.modal-body h1 {
-  font-weight: 900;
-  font-size: 2.3em;
-  text-transform: uppercase;
-}
-.modal-body span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 500;
 }
